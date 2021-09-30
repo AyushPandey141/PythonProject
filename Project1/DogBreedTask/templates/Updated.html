@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static\Home.css">
+        <body>
+            <a href="https://cdn2.thedogapi.com/images/Skdcgx9VX.jpg"><img src="static\dog1.jpg" class="set"></a>
+            <center>
+                <h1>DOGS INFO TABLE</h1>
+            <table width="100%" border="5px">
+                <tr>
+                    <th>
+                    Breed
+                    </th>
+                    <th>
+                        Origin
+                    </th>
+                    <th>
+                        Purpose
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                </tr>
+                {%for i in range(0,length)%}
+                <tr>
+                    <td value="{{i[0]}}">
+                        {{z[i]["Breed"]}}
+                    </td>
+
+                    <td value="{{i[1]}}">
+                        {{z[i]["Origin"]}}
+                    </td>
+                    <td value="{{i[2]}}">
+                        {{z[i]["Purpose"]}}
+                    </td>
+                   <td value="{{i[3]}}">
+                    <img src="{{z[i]['Image']}}" style="height:80px;width:100px;">
+                    </td>
+            </tr>
+            {%endfor%}
+                
+            </table>
+            </center>
+        </body>
+    </head>
+</html>

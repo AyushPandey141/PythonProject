@@ -1,0 +1,46 @@
+.set {
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.set1 {
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: -20px;
+  margin-top: 3px;
+}
+
+h1 {
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  word-spacing: 5px;
+}
+
+body {
+  background-color: lightpink;
+}
+
+th {
+  height: 40px;
+  font-size: 25px;
+  background-color: lightgrey;
+}
+
+td {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  height: 25px;
+  padding: 5px;
+}
+
+p {
+  word-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
