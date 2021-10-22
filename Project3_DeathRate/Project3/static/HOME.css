@@ -1,0 +1,25 @@
+body {
+  background-color: wheat;
+}
+img {
+  border: 5px solid #555;
+}
+
+div.container {
+  display: inline-block;
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Glyphicons Halflings";
+  margin: 10px 25px 20px 25px;
+  text-align: justify;
+}
+
+ul {
+  font-size: 20px;
+  font-family: "Glyphicons Halflings";
+  margin: 10px 25px 20px 25px;
+  text-align: justify;
+}
